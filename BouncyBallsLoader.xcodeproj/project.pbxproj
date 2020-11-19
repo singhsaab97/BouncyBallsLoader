@@ -16,7 +16,10 @@
 		DE3D1631256637B80016EF18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3D162F256637B80016EF18 /* Main.storyboard */; };
 		DE3D1633256637BB0016EF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE3D1632256637BB0016EF18 /* Assets.xcassets */; };
 		DE3D1636256637BB0016EF18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE3D1634256637BB0016EF18 /* LaunchScreen.storyboard */; };
-		DE3D1645256661C90016EF18 /* BouncyBalls.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D1644256661C80016EF18 /* BouncyBalls.gif */; };
+		DE3D1651256667390016EF18 /* BouncyBallsDown.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D164D256667390016EF18 /* BouncyBallsDown.gif */; };
+		DE3D1652256667390016EF18 /* BouncyBallsLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D164E256667390016EF18 /* BouncyBallsLeft.gif */; };
+		DE3D1653256667390016EF18 /* BouncyBallsRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D164F256667390016EF18 /* BouncyBallsRight.gif */; };
+		DE3D1654256667390016EF18 /* BouncyBallsUp.gif in Resources */ = {isa = PBXBuildFile; fileRef = DE3D1650256667390016EF18 /* BouncyBallsUp.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +47,10 @@
 		DE3D1632256637BB0016EF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE3D1635256637BB0016EF18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE3D1637256637BB0016EF18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE3D1644256661C80016EF18 /* BouncyBalls.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BouncyBalls.gif; sourceTree = "<group>"; };
+		DE3D164D256667390016EF18 /* BouncyBallsDown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BouncyBallsDown.gif; sourceTree = "<group>"; };
+		DE3D164E256667390016EF18 /* BouncyBallsLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BouncyBallsLeft.gif; sourceTree = "<group>"; };
+		DE3D164F256667390016EF18 /* BouncyBallsRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BouncyBallsRight.gif; sourceTree = "<group>"; };
+		DE3D1650256667390016EF18 /* BouncyBallsUp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BouncyBallsUp.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,16 +120,27 @@
 		DE3D1628256637B80016EF18 /* BouncyBallsLoaderExamples */ = {
 			isa = PBXGroup;
 			children = (
+				DE3D164C2566672B0016EF18 /* Gifs */,
 				DE3D1629256637B80016EF18 /* AppDelegate.swift */,
 				DE3D162B256637B80016EF18 /* SceneDelegate.swift */,
 				DE3D162D256637B80016EF18 /* ViewController.swift */,
 				DE3D162F256637B80016EF18 /* Main.storyboard */,
-				DE3D1644256661C80016EF18 /* BouncyBalls.gif */,
 				DE3D1632256637BB0016EF18 /* Assets.xcassets */,
 				DE3D1634256637BB0016EF18 /* LaunchScreen.storyboard */,
 				DE3D1637256637BB0016EF18 /* Info.plist */,
 			);
 			path = BouncyBallsLoaderExamples;
+			sourceTree = "<group>";
+		};
+		DE3D164C2566672B0016EF18 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				DE3D164D256667390016EF18 /* BouncyBallsDown.gif */,
+				DE3D164E256667390016EF18 /* BouncyBallsLeft.gif */,
+				DE3D164F256667390016EF18 /* BouncyBallsRight.gif */,
+				DE3D1650256667390016EF18 /* BouncyBallsUp.gif */,
+			);
+			path = Gifs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,10 +269,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3D1653256667390016EF18 /* BouncyBallsRight.gif in Resources */,
+				DE3D1652256667390016EF18 /* BouncyBallsLeft.gif in Resources */,
 				DE3D1636256637BB0016EF18 /* LaunchScreen.storyboard in Resources */,
-				DE3D1645256661C90016EF18 /* BouncyBalls.gif in Resources */,
+				DE3D1651256667390016EF18 /* BouncyBallsDown.gif in Resources */,
 				DE3D1633256637BB0016EF18 /* Assets.xcassets in Resources */,
 				DE3D1631256637B80016EF18 /* Main.storyboard in Resources */,
+				DE3D1654256667390016EF18 /* BouncyBallsUp.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
