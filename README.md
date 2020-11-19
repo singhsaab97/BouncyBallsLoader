@@ -15,7 +15,6 @@ I'm usually on the lookout for UI inspiration on [Dribbble](https://dribbble.com
 3. **colors**: Color of every consecutive ball (it will take a default color if count of colors is not equal to the number of balls).
 4. **direction**: Determines the bounce direction (options are up, down, left and right).
 5. **duration**: Total animation duration of one bounce cycle.
-6. **autoLoad**: Determines if the loader will start animating as soon as it's added to the parent view (default value is set to true).
 
 ### How to use
 ```
@@ -40,7 +39,7 @@ loader.heightAnchor.constraint(equalToConstant: loader.optimalSize.height).isAct
 ```
 That's it! It is **recommended** to use **optimalSize** property to set proper constraints for the loader, however, it'll also work fine if you set a custom width and height as long as it doesn't ruin aesthetics.:wink:
 
-You need to explicity call `loader.startLoading()` if **autoLoad** is set to false. To stop the loading animation, just call `loader.stopLoading()`.
+As soon as you add loader to the parent view, it'll start animating. To stop the loading animation, just call `loader.stopLoading()`.
 
 ### Show some appreciation
 Hey if you like this project and consider using it in your app, I'd like if you give it a star and show some love.:star::heavy_heart_exclamation:
